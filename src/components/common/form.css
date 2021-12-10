@@ -1,0 +1,108 @@
+.form {
+    left: 0rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 22.5rem;
+    height: 25rem;
+    z-index: 4;
+   
+}
+.form div{
+    padding: 10px;
+}
+
+.form button{
+   padding: 1rem;
+   background: red;
+   color: white;
+   font-weight: bold;
+   border: none;
+
+}
+.form button:hover{
+    padding: 1.1rem;
+    background: rgb(209, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+ 
+ }
+.form input{
+    position: relative;
+    z-index: 4;
+    max-width: 20rem;
+    width: 20rem;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid rgb(209, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+.form-message{
+    position: relative;
+    z-index: 4;
+    margin: 2rem;
+    width: 22.5rem;
+    height: 25rem;
+    padding: 2rem;
+}
+.form-message-msg{
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.form-response-message{
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+@media screen and (max-width: 700px){
+    .form {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        height: 20rem;
+        z-index: 4;
+       
+    }
+    .form input{
+        position: relative;
+        z-index: 4;
+        max-width: 20rem;
+        width: 20rem;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid rgb(209, 0, 0);
+        border-radius: 4px;
+        box-sizing: border-box;
+        overflow: visible;
+    }
+    .form-message{
+        position: relative;
+        z-index: 4;
+        width: 22.5rem;
+        height: 20rem;
+        padding: 1rem;
+        margin: 0rem;
+    }
+    .form-message-msg{
+        align-items: center;
+        color: white;
+        font-size: 0.75rem;
+
+    }
+    .form-response-message{
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+        visibility: hidden;
+    }
+}

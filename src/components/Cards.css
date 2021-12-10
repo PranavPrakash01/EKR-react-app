@@ -1,0 +1,204 @@
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 37.5rem;
+    background-color: #303030;
+    z-index: 1;
+
+}
+.title{
+    display: flex;
+    color: red;
+    font-size: 3rem;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+}
+.black-cards-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    z-index: 2;
+    width: 100%;
+    height:23.5rem;
+    overflow: visible;
+  
+}
+.card-view{
+    display: flex; 
+    align-items: center;
+    height:27.5rem;
+    width: 100%;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+.video-link{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 21rem;
+    height:27.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: 10px 10px 10px black;
+
+}
+.card:hover{
+    transition: 0.2s;
+    width: 21.3rem;
+    height:29rem;
+}
+
+.card-img{
+    width: 100%;
+    min-height: 15rem;
+    
+}
+.card-title-container{
+    
+    text-align:center; 
+    display:table;
+    width: 100%;
+    background-color:  rgb(209, 0, 0); ;
+    text-align: center;
+    height: 4rem;
+}
+.card-title{
+    font-size: 1rem;
+    color: white;
+    display:table-cell;
+    vertical-align:middle;
+}
+.card-description-container{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(63, 62, 62);
+    height: 10rem;
+}
+.card-description{
+    
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px grey;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+.more-cards{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    width: 2rem;
+    height:7.5rem;
+    text-decoration: none;
+}
+.more-cards:hover{
+    background-color: #910000;
+    cursor: pointer;
+}
+.more-cards-txt{
+    display: flex;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.5rem;
+    left: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        width: 100%;
+        height: 30rem;
+        background-color: #303030;
+        z-index: 1;
+        margin-top: -17.5rem;
+    
+    }
+    .title{
+        display: flex;
+        color: red;
+        font-size: 2rem;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+    }
+    .black-cards-container{
+        display: flex;
+        position: relative;
+        align-items: center;
+        background-color: black;
+        z-index: 2;
+        width: 100%;
+        height:17.5rem;
+
+      
+    }
+    .card-view{
+        display: flex; 
+        align-items: center;
+        height:22.5rem;
+        width: fit-content;
+        margin-left: 0.25rem;
+        margin-right: 0.5rem;
+        overflow-x: scroll;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 10rem !important;
+        min-width: 10rem;
+        height:20rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .card-img{
+        width: 100%;
+        min-height: 10rem;
+        
+    }
+    .card-title-container{
+    
+        text-align:center; 
+        display:table;
+        width: 100%;
+        background-color: red;
+        height: 5rem;
+        max-height: 5rem;
+        text-align: center;
+    }
+    .card-title{
+        font-size: 0.75rem;
+        color: white;
+        display:table-cell;
+        vertical-align:middle;
+    }
+    .card-description-container{
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .card-description{
+        padding: 0.25rem;
+        font-size: 0.75rem;
+    }
+}

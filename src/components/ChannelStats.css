@@ -1,0 +1,64 @@
+.channel-stats-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height:25rem;
+    z-index: 1;
+}
+.channel-stats-title{
+    display: flex;
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    padding: 3rem;
+    margin-top: -2rem;
+    align-self: center;
+    z-index: 2;
+}
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: -2rem;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}
+.stats-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+.stats-value{
+    align-self: center;
+    position: relative;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+.stats-value:hover{
+   color: red;
+   transition: 0.2sec;
+}
+.stats-title{
+    align-self: center;
+    position: relative;
+    font-size: 2.75rem;
+    color: red;
+    font-weight: bold;
+}
+.stats-title:hover{
+    color: white;
+    transition: 0.2sec;
+}

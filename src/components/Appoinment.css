@@ -1,0 +1,123 @@
+.appoinment-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 35rem;
+    background-color: #303030;
+    align-items: center;
+    overflow: visible;
+    z-index: 2;
+}
+.black-appoinments-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height:30rem;
+    overflow: visible;
+}
+.appoinment-ribbon{
+    position: relative;
+    align-items: center;
+    z-index: 2;
+    margin-left: -3rem;
+    width: 32.5rem;
+    height: 32rem;
+    display: inline-block;
+    background: rgb(209, 0, 0);    
+    border: 1px solid black;
+    transform: skewX(-10deg);
+    border: none;
+ 
+}
+.ribbon-title{
+    display: flex;
+    padding: 7.5rem;
+    align-self: center;
+    position: relative;
+    z-index: 3;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    line-height: 3.75rem;
+    transform: skewX(10deg);
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+.appoinment-form-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-items: center;
+    padding: 1rem;
+    z-index: 3;
+    margin-left:15rem;
+    height: 100%;
+    width: 50%;
+    overflow: visible;
+    
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 700px){
+    .appoinment-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 37.5rem;
+        background-color: #303030;
+        align-items: center;
+        overflow: visible;
+        z-index: 2;
+    }
+    .black-appoinments-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        background-color: black;
+        z-index: 1;
+        width: 100%;
+        height:34rem;
+        overflow: visible;
+    }
+    .appoinment-ribbon{
+        position: relative;
+        align-items: center;
+        z-index: 2;
+        width:22rem;
+        height: 10rem;
+        display: inline-block;
+        background: rgb(209, 0, 0);    
+        border: 1px solid black;
+        border: none;
+        margin-left: 0.25rem;
+     
+    }
+    .ribbon-title{
+        display: flex;
+        padding: 1rem;
+        align-self: center;
+        position: relative;
+        z-index: 3;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    .appoinment-form-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        position: relative;
+        align-items: center;
+        z-index: 3;
+        height: fit-content;
+        width: fit-content;
+        overflow: visible;
+        margin-left: 0.5rem;
+        
+    }
+}

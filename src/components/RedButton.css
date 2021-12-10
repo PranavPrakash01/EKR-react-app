@@ -1,0 +1,17 @@
+.red-btn-container{
+    display: flex;
+    position: relative;
+    width:100%;
+    height: 5rem;
+    align-items: center;
+}
+.red-btn{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    left: 42.5%;
+    background-color: red;
+    border: none;
+    width: 15rem;
+    height:4rem;
+}
